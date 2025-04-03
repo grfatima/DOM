@@ -1,6 +1,7 @@
 const button = document.getElementById("btn");
 
-let mode = "light";
+let mode = "dark";
+
 const modeButton = (mode) => {
   if (mode === "light") {
     button.innerText = "light";
