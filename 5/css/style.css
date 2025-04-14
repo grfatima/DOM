@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+table,
+tr,
+td,
+th {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 1000px;
+  margin: 60px auto;
+}
+
+.completed {
+  color: white;
+  background-color: green;
+}
+
+.notCompleted {
+  color: white;
+  background-color: red;
+}
+
+form {
+  margin: auto;
+  width: 1000px;
+  margin-top: 50px;
+}
